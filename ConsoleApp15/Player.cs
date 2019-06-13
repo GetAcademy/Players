@@ -4,9 +4,9 @@ namespace ConsoleApp15
 {
     class Player
     {
-        private string _name;
+        private readonly string _name;
         private int _points;
-        private Random _random;
+        private readonly Random _random;
 
         public Player(string name, int points, Random random)
         {
