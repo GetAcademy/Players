@@ -23,7 +23,7 @@ namespace ConsoleApp15
             loser._points -= 1;
         }
 
-        public void ShowNameAndPoints(Random random)
+        public void ShowNameAndPoints()
         {
             Console.WriteLine(_name.PadRight(12) + _points.ToString().PadLeft(3));
         }

@@ -24,7 +24,7 @@ namespace ConsoleApp15
 
             foreach (var player in players)
             {
-                player.ShowNameAndPoints(random);
+                player.ShowNameAndPoints();
             }
         }
     }
